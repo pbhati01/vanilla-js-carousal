@@ -53,7 +53,7 @@ body {
 
 .slides-container {
   display: flex;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .slide-arrow {
@@ -190,7 +190,7 @@ body {
     top: 5%;
   }
   .other-products {
-    width: 88%;
+    width: 100%;
   }
   .slider-wrapper {
     overflow: hidden;
@@ -198,5 +198,7 @@ body {
     position: relative;
     height: 400px;
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
